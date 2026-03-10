@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class NumIsPostiveOrNegative{
+	public static void main(String[] args){
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter a number to check = ");
+		int number = sc.nextInt();
+
+		if(number > 0){
+			System.out.println("Entered number is positive.");
+		}
+		else if(number < 0){
+			System.out.println("Entered number is negative.");
+		}
+		else{
+			System.out.println("Entered number is zero.");
+		}
+	}
+}
